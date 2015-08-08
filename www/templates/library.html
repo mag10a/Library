@@ -1,0 +1,28 @@
+<ion-view view-title="Library">
+  <ion-content>
+    <ion-list>
+      <div class="item item-divider">
+        Available
+      </div>
+      <ion-item ng-repeat="book in books | filter:{'status':'checkedIn'}" class="item-icon-right" ui-sref="#/tab/chats/{{book.isbn}}">
+        <h2>{{ book.title }}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="checkout(book)">
+          Check-out
+        </ion-option-button>
+      </ion-item>
+      <div class="item item-divider">
+        Checked-out
+      </div>
+      <ion-item ng-repeat="book in books | filter:{'status':'checkedOut'}" class="item-icon-right" ui-sref="#/tab/chats/{{book.isbn}}">
+        <h2>{{ book.title }}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="checkout(book)">
+          Check-out
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

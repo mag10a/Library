@@ -1,0 +1,134 @@
+[
+  {
+    "subject_ids" : [
+      "dogs_fiction",
+      "snow_fiction"
+    ],
+    "publisher_name" : "Scholastic",
+    "publisher_text" : "New York : Scholastic, 2002.",
+    "urls_text" : "",
+    "author_data" : [
+      {
+        "name" : "Barkly, Bob",
+        "id" : "barkly_bob"
+      },
+      {
+        "name" : "Bracken, Carolyn",
+        "id" : "bracken_carolyn"
+      },
+      {
+        "name" : "Edwards, Ken",
+        "id" : "edwards_ken"
+      },
+      {
+        "name" : "Bridwell, Norman",
+        "id" : "bridwell_norman"
+      },
+      {
+        "name" : "Guy, Scott",
+        "id" : "guy_scott"
+      }
+    ],
+    "physical_description_text" : "1 v. (unpaged) : col. ill. ; 23 cm.",
+    "notes" : "\"Based on the Scholastic book series 'Clifford the Big Red Dog' by Norman Bridwell.\"\n\n\"Watch on CBC\"\n\n2.0\n\n6-8\n\n\"Clifford, Mac and T-Bone think that ice is nice! But Cleo will not skate with them. Why not?\"--P. [4] of cover.\n\n2.0\n\n6-8",
+    "isbn10" : "0439389909",
+    "book_id" : "winter_ice_is_nice",
+    "dewey_decimal" : "E",
+    "title_long" : "",
+    "lcc_number" : "PZ7",
+    "edition_info" : "",
+    "isbn13" : "9780439389907",
+    "language" : "eng",
+    "title" : "Winter ice is nice",
+    "summary" : "",
+    "title_latin" : "Winter ice is nice",
+    "publisher_id" : "scholastic",
+    "dewey_normal" : "0",
+    "awards_text" : "",
+    "marc_enc_level" : "4",
+    "status": "checkedIn"
+  },
+  {
+    "physical_description_text" : "32 pages",
+    "urls_text" : "",
+    "author_data" : [
+      {
+        "name" : "O'Connor, Jane",
+        "id" : "oconnor_jane"
+      },
+      {
+        "id" : "robin_preiss_glasser",
+        "name" : "Robin Preiss Glasser"
+      },
+      {
+        "id" : "enik_ted",
+        "name" : "Enik, Ted"
+      },
+      {
+        "id" : "bracken_carolyn",
+        "name" : "Bracken, Carolyn"
+      }
+    ],
+    "publisher_text" : "HarperCollins",
+    "publisher_name" : "HarperCollins",
+    "subject_ids" : [
+      "childrens_books_ages_4_8_general",
+      "childrens_books_ages_4_8_general_aas",
+      "childrens_books_issues_school",
+      "childrens_books_literature_humorous",
+      "childrens_books_early_reader_series_i_can_read_books_general",
+      "childrens_books_early_reader_series_i_can_read_books_g_aaaa0"
+    ],
+    "edition_info" : "Paperback; 2009-07-01",
+    "isbn13" : "9780061703706",
+    "lcc_number" : "",
+    "dewey_decimal" : "",
+    "title_long" : "Fancy Nancy: Pajama Day (I Can Read Book 1)",
+    "book_id" : "fancy_nancy_pajama_day",
+    "isbn10" : "0061703702",
+    "notes" : "",
+    "title_latin" : "Fancy Nancy: Pajama Day",
+    "summary" : "",
+    "title" : "Fancy Nancy: Pajama Day",
+    "language" : "",
+    "awards_text" : "",
+    "marc_enc_level" : "~",
+    "dewey_normal" : "0",
+    "publisher_id" : "harpercollins",
+    "status":"checkedOut"
+  },
+  {
+    "language" : "",
+    "title" : "Martin Luther King Jr. Day - The Robin Hill School",
+    "summary" : "When Mrs. Connor's class learns about a great man, they discover their own dreams and hopes for a better world!",
+    "title_latin" : "Martin Luther King Jr. Day - The Robin Hill School",
+    "publisher_id" : "scholastic",
+    "marc_enc_level" : "~",
+    "dewey_normal" : "0",
+    "awards_text" : "",
+    "publisher_name" : "Scholastic",
+    "subject_ids" : [],
+    "publisher_text" : "Scholastic",
+    "urls_text" : "",
+    "author_data" : [
+      {
+        "name" : "McNamara, Margaret",
+        "id" : "mcnamara_margaret"
+      },
+      {
+        "name" : "Gordon, Mike",
+        "id" : "gordon_mike"
+      }
+    ],
+    "physical_description_text" : "6.0\"x8.8\"x0.2\"; 0.2 lb",
+    "notes" : "",
+    "isbn10" : "0545104335",
+    "book_id" : "martin_luther_king_jr_day_the_robin_hill_school",
+    "dewey_decimal" : "",
+    "title_long" : "Martin Luther King Jr. Day - The Robin Hill School (Ready to Read, Level 1)",
+    "lcc_number" : "",
+    "isbn13" : "9780545104333",
+    "edition_info" : "Paperback; 2009",
+    "status":"checkedOut"
+  }
+]
