@@ -1,0 +1,24 @@
+<ion-view>
+    <ion-nav-title>
+        {{ listCtrl.viewModel.title }}
+    </ion-nav-title>
+    <ion-content>
+        <ion-list>
+            <ion-item
+                    ng-repeat="book in listCtrl.viewModel.books | filter:{'status': listCtrl.viewModel.status }"
+                    class="item-icon-right"
+                    ui-sref="app.book({isbn: book.isbn13, status:book.status})">
+                <h2>{{ book.title }}</h2>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+
+                <ion-option-button
+                        class="button-assertive"
+                        ng-class="{'button-balanced': listCtrl.viewModel.actionName === 'Check-in'}"
+                        ng-click="listCtrl.viewModel.handleAction(book)">
+                    {{ listCtrl.viewModel.actionName }}
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <button class="button button-icon ion-android-add fab-button" ui-sref="app.add-book"></button>
+</ion-view>

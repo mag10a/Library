@@ -8,3 +8,5 @@ hooks/
 resources/
 .idea/
 .bowerrc
+www/lib/
+www/css/

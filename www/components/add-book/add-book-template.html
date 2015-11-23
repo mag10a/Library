@@ -1,0 +1,17 @@
+<ion-view>
+    <ion-nav-title>
+        {{ add_book_ctrl.title }}
+    </ion-nav-title>
+    <ion-content>
+        <h1>{{ add_book_ctrl.book.title }}</h1>
+        <div>
+            By: {{ add_book_ctrl.book.displayAuthors() }}
+        </div>
+        <h3>{{ add_book_ctrl.book.isbn13 }}</h3>
+        <p>{{ add_book_ctrl.book.notes }}</p>
+        <div class="row">
+            <button class="col button button-icon ion-checkmark-round save"></button>
+            <button class="col button button-icon ion-trash-a cancel"></button>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,14 @@
+<ion-view>
+    <ion-nav-title>
+        Book Details
+    </ion-nav-title>
+    <ion-content class="padding">
+        <h1>{{ bookCtrl.book.title }}</h1>
+        <div>
+            By: {{ bookCtrl.book.authors }}
+        </div>
+        <h3>Current status: {{ bookCtrl.book.status }}</h3>
+        <h3>ISBN: {{ bookCtrl.book.isbn13 }}</h3>
+        <p>{{ bookCtrl.book.notes }}</p>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,57 @@
+{
+  "users":
+  {
+    "b4a79868-d864-43f3-b23b-fc1865a06f9f": {
+      "books": {
+        "9780439389907": {
+          "isbn13": "9780439389907",
+          "title": "Winter ice is nice",
+          "status": "Checked-in"
+        }
+      }
+    }
+  },
+  "books": {
+    "9780439389907": {
+      "publisherName": "Scholastic",
+      "publisherText": "New York : Scholastic, 2002.",
+      "authors": [
+        {
+          "firstName": "Bob",
+          "lastName": "Barkly"
+        },
+        {
+          "firstName":"Carolyn",
+          "lastName":"Bracken"
+        },
+        {
+          "firstName":"Ken",
+          "lastName":"Edwards"
+        },
+        {
+          "firstName":"Norman",
+          "lastName":"Bridwell"
+        },
+        {
+          "firstName":"Scott",
+          "lastName":"Guy"
+        }
+      ],
+      "notes": "\"Based on the Scholastic book series 'Clifford the Big Red Dog' by Norman Bridwell.\"\n\n\"Watch on CBC\"\n\n2.0\n\n6-8\n\n\"Clifford, Mac and T-Bone think that ice is nice! But Cleo will not skate with them. Why not?\"--P. [4] of cover.\n\n2.0\n\n6-8",
+      "isbn10": "0439389909",
+      "bookId": "winter_ice_is_nice",
+      "deweyDecimal": "E",
+      "titleLong": "",
+      "lccNumber": "PZ7",
+      "editionInfo": "",
+      "isbn13": "9780439389907",
+      "language": "eng",
+      "title": "Winter ice is nice",
+      "summary": "",
+      "titleLatin": "Winter ice is nice",
+      "publisherId": "scholastic",
+      "deweyNormal": "0",
+      "awardsText": ""
+    }
+  }
+}

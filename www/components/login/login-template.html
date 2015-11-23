@@ -1,0 +1,32 @@
+<ion-view view-title="Login" class="login">
+    <ion-nav-buttons side="right">
+        <button class="button button-clear" ng-click="loginCtrl.changeView()">{{ loginCtrl.views[loginCtrl.currentView].buttonText }}</button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="left"></ion-nav-buttons>
+    <ion-nav-title>
+        Welcome!
+    </ion-nav-title>
+    <ion-content scroll="false">
+        <div class="list list-inset">
+            <h1 class="title">
+                {{ loginCtrl.views[loginCtrl.currentView].title }}
+                <span class="error-message" ng-if="loginCtrl.invalidEmail || loginCtrl.invalidPassword || loginCtrl.confirmPassword">{{ loginCtrl.getErrorMessage() }}</span>
+            </h1>
+            <form name="form">
+                <label class="item item-input item-input-inset" ng-class="{'invalid-input': loginCtrl.invalidEmail }">
+                    <input type="email" name="email" placeholder="Email" ng-model="loginCtrl.email"/>
+                </label>
+                <label class="item item-input item-input-inset" ng-class="{'invalid-input': loginCtrl.invalidPassword }">
+                    <input type="password" name="password" placeholder="Password" ng-model="loginCtrl.password"/>
+                </label>
+                <label
+                        ng-if="loginCtrl.currentView === 'signUp'"
+                        ng-class="{'invalid-input': loginCtrl.invalidConfirmPassword }"
+                        class="item item-input item-input-inset">
+                    <input type="password" placeholder="Confirm Password" ng-model="loginCtrl.confirmPassword"/>
+                </label>
+            </form>
+            <button class="button button-positive button-block" ng-click="loginCtrl.login(form.email.$valid)">{{ loginCtrl.views[loginCtrl.currentView].title }}</button>
+        </div>
+    </ion-content>
+</ion-view>

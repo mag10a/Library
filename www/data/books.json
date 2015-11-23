@@ -46,7 +46,7 @@
     "dewey_normal" : "0",
     "awards_text" : "",
     "marc_enc_level" : "4",
-    "status": "checkedIn"
+    "status": "Check-in"
   },
   {
     "physical_description_text" : "32 pages",
@@ -95,7 +95,7 @@
     "marc_enc_level" : "~",
     "dewey_normal" : "0",
     "publisher_id" : "harpercollins",
-    "status":"checkedOut"
+    "status":"Check-out"
   },
   {
     "language" : "",
@@ -129,6 +129,6 @@
     "lcc_number" : "",
     "isbn13" : "9780545104333",
     "edition_info" : "Paperback; 2009",
-    "status":"checkedOut"
+    "status":"Check-out"
   }
 ]

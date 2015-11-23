@@ -4,7 +4,7 @@
       <div class="item item-divider">
         Available
       </div>
-      <ion-item ng-repeat="book in books | filter:{'status':'checkedIn'}" class="item-icon-right" ui-sref="#/tab/chats/{{book.isbn}}">
+      <ion-item ng-repeat="book in books | filter:{'status':'checkedIn'}" class="item-icon-right" ui-sref="library.book({ isbn: {{ book.isbn10 }} })">
         <h2>{{ book.title }}</h2>
         <i class="icon ion-chevron-right icon-accessory"></i>
 
@@ -15,7 +15,7 @@
       <div class="item item-divider">
         Checked-out
       </div>
-      <ion-item ng-repeat="book in books | filter:{'status':'checkedOut'}" class="item-icon-right" ui-sref="#/tab/chats/{{book.isbn}}">
+      <ion-item ng-repeat="book in books | filter:{'status':'checkedOut'}" class="item-icon-right" ui-sref="library.book(isbn:{{book.isbn}})">
         <h2>{{ book.title }}</h2>
         <i class="icon ion-chevron-right icon-accessory"></i>
 
